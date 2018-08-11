@@ -1,0 +1,47 @@
+
+
+/**************************/
+/*        顶部通用         */
+/**************************/
+/*footereq*/
+.bottom{height:80px;}
+.zero-navbar {
+    padding: 0;
+	height: 60px;
+	background: #fff;
+	box-shadow: none;
+	border-bottom:#f2f2f2;
+	padding-top:10px;
+	border-bottom:2px #98cbc0 solid;
+}
+.more{float:right;font-size:2em;}
+.swiper-slide img{width:100%;}
+.pagetit{max-width:80%;width:150px;}
+.s-btn{   width: 40px;
+    background: #98cbc0;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 0;}
+.ctit{height:50px;line-height:50px;font-size:1.1em;font-weight:bold;}
+.cli{display:block;}
+.cli img{width:100%;}
+.cli p{text-align:center;color:#444;font-size:0.9em;line-height:30px;}
+.footer{background:#fff;padding-top:10px;padding-bottom:10px;position:fixed;bottom:0px;left:0px;width:100%;}
+.footer a{display:block;width:33%;text-align: center;float:left;font-size:0.12rem;color:#444;}
+.footer a img{height:1.9rem;}
+.tel img{width:32px;}
+@media (max-width:768px){
+/*body{padding-top:70px;}*/
+.container{width:100%}
+
+}
+
+@media (min-width:768px){
+	.container{width:1230px}
+
+
+}
+
+
+
+
