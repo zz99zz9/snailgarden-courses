@@ -1,22 +1,22 @@
 <%
 Set oRs=Server.CreateObject("ADODB.Recordset")
 oRs.Open "select * from Table_SiteInfo ",conn,1,1
-SiteName=oRs("Sitename")				'ÍøÕ¾Ãû³Æ
-SiteTitle=oRs("SiteTitle")				'ÍøÕ¾±êÌâ
-siteKey=oRs("SiteKey")					'ÍøÕ¾¹Ø¼ü×Ö
-SiteCont=oRs("SiteCont")				'ÍøÕ¾ÃèÊö
-SiteURl=oRs("SiteURl")					'ÍøÕ¾µØÖ·
-SiteCopyRight=oRs("SiteCopyRight")		'ÍøÕ¾°æÈ¨ÐÅÏ¢
-SiteBeiAn=oRs("SiteBeiAn")				'ÍøÕ¾±¸°¸ÐÅÏ¢
-WebmasterName=oRs("WebmasteRName")      'Õ¾³¤ÐÕÃû
-WebmasterEmail=oRs("WebmasteREmail")    'Õ¾³¤ÐÅÏä
-CoName=oRs("CoName")					'ÆóÒµÃû³Æ
-CoTel=oRs("CoTel")						'ÆóÒµµç»°
-CoFax=oRs("CoFax")						'ÆóÒµ´«Õæ
-CoMail=oRs("CoMail")					'ÆóÒµ´«Õæ
-CoAddr=oRs("CoAddr")					'ÆóÒµµØÖ·
-CoCode=oRs("CoCode")					'ÆóÒµÓÊ±à
-t="ÎÏÅ£»¨Ô°"
+SiteName=oRs("Sitename")				'ç½‘ç«™åç§°
+SiteTitle=oRs("SiteTitle")				'ç½‘ç«™æ ‡é¢˜
+siteKey=oRs("SiteKey")					'ç½‘ç«™å…³é”®å­—
+SiteCont=oRs("SiteCont")				'ç½‘ç«™æè¿°
+SiteURl=oRs("SiteURl")					'ç½‘ç«™åœ°å€
+SiteCopyRight=oRs("SiteCopyRight")		'ç½‘ç«™ç‰ˆæƒä¿¡æ¯
+SiteBeiAn=oRs("SiteBeiAn")				'ç½‘ç«™å¤‡æ¡ˆä¿¡æ¯
+WebmasterName=oRs("WebmasteRName")      'ç«™é•¿å§“å
+WebmasterEmail=oRs("WebmasteREmail")    'ç«™é•¿ä¿¡ç®±
+CoName=oRs("CoName")					'ä¼ä¸šåç§°
+CoTel=oRs("CoTel")						'ä¼ä¸šç”µè¯
+CoFax=oRs("CoFax")						'ä¼ä¸šä¼ çœŸ
+CoMail=oRs("CoMail")					'ä¼ä¸šä¼ çœŸ
+CoAddr=oRs("CoAddr")					'ä¼ä¸šåœ°å€
+CoCode=oRs("CoCode")					'ä¼ä¸šé‚®ç¼–
+t="èœ—ç‰›å­¦å ‚"
 oRs.close
 set oRs=Nothing
 QQ="897358445"
