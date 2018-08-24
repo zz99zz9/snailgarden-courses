@@ -54,9 +54,7 @@ rs.open sql,conn,1,1
           <%do while not rs.eof%>
           <tr > 
             <td class="hidden-phone"><%=rs("articleid")%></td>
-            <!--<td class="hidden-phone"><%=rs("bigclassname")%></td>
-                            <td class="hidden-phone"><%=rs("smallclassname")%></td>-->
-            <td><%=rs("title")%> [ <%=rs("entitle")%> ] <%if rs("Passed")=false then%>(草稿)<%end if%></td>
+            <td><%=rs("entitle")%> [ <%=rs("picalt")%> ] <%if rs("Passed")=false then%>(草稿)<%end if%></td>
             <td class="hidden-phone"><%= FormatDateTime(rs("UpdateTime"),2) %></td>
             <td class="hidden-phone"><%=rs("orderid")%></td>
             <td class="hidden-phone"><%if rs("Passed")=false then%><i class="icon-remove" style="color:#ff6c60;"></i><%else%><i class="icon-ok" style="color:#78cd51;"></i><%end if%></td>
