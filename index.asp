@@ -70,7 +70,7 @@
     <div class="container ">
     <div class="row">
       <div class="col-md-12 col-xs-12 ctit wow fadeInUp animated">
-        推荐课程<a href="tjkc.asp" class="more">···</a>
+        推荐课程<a href="https://www.vlearn.cn/su/Ea6VRm" class="more">···</a>
       </div>
     </div>
     </div>
@@ -117,7 +117,7 @@ rsnew.Open sqlnew,conn,1,1%>
     <div class="container ">
     <div class="row">
       <div class="col-md-12 col-xs-12 ctit wow fadeInUp animated">
-        精品课程<a href="jpkc.asp" class="more">···</a>
+        收费课程<a href="https://www.vlearn.cn/su/F2bQ6I" class="more">···</a>
       </div>
     </div>
     </div>
@@ -164,7 +164,7 @@ rsnew.Open sqlnew,conn,1,1%>
     <div class="container ">
     <div class="row">
       <div class="col-md-12 col-xs-12 ctit wow fadeInUp animated">
-        免费课程<a href="mfkc.asp" class="more">···</a>
+        免费课程<a href="https://www.vlearn.cn/su/vrNifI" class="more">···</a>
       </div>
     </div>
     </div>
